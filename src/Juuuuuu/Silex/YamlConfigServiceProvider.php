@@ -1,6 +1,6 @@
 <?php
 
-namespace Service;
+namespace Juuuuuu\Silex;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;

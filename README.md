@@ -12,10 +12,9 @@ To use it add following line to your composer.json:
         ...
     }
 
-
 ## Usage
 
-Include following line of code somewhere in your initial Silex file (index.php or whatever):
+Include following line of code somewhere in your initial Silex file (index.php or whatever):  
 
 ```php
     $app->register(new Juuuuuu\Silex\YamlConfigServiceProvider(__DIR__.'/../app/config/parameters.yml'));
@@ -26,7 +25,7 @@ Now you have access to all of your configuration variables through `$app['parame
 
 ## Example
 
-parameters.yml:
+parameters.yml:  
 
 ```yml
 parameters:

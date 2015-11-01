@@ -1,0 +1,26 @@
+{
+    "name": "juuuuuu/yaml-config-service-provider",
+    "description": "A config ServiceProvider for Silex with support for yaml.",
+    "keywords": ["silex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Manganne",
+            "email": "jmanganne@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0@dev"
+    },
+    "require-dev": {
+        "symfony/yaml": "~2.1"
+    },
+    "autoload": {
+        "psr-0": { "Juuuuuu\\Silex": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

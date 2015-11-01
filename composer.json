@@ -1,7 +1,7 @@
 {
     "name": "juuuuuu/yaml-config-service-provider",
     "description": "A config ServiceProvider for Silex with support for yaml.",
-    "keywords": ["silex"],
+    "keywords": ["silex", "yaml"],
     "license": "MIT",
     "authors": [
         {
